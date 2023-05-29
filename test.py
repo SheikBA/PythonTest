@@ -8,7 +8,11 @@ def suma(a, b):
 
 
 
-resultado = suma(5, 2500)
+def restar(a, b):
+    return a -b 
 
-print(resultado)
+resultadosuma = suma(5, 2500)
+resultadoresta = restar(5000, 2500)
+print(resultadosuma)
+print(resultadoresta)
 
